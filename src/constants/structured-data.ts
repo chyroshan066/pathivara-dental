@@ -98,24 +98,24 @@ interface SpecialtiesStructuredData {
 export const dentalClinicStructuredData: DentalBusinessStructuredData = {
   "@context": "https://schema.org",
   "@type": "Dentist",
-  "name": "Pradhan Dental", 
+  "name": "Pathivara Dental Care and Implant Centre", 
   "description": "Professional dental care services in Birtamode. Comprehensive oral health treatments including routine checkups, advanced procedures, orthodontics, and emergency dental care. Modern equipment, experienced dentists, and patient-focused approach.", 
-  "url": "https://www.pradhandental.com",
+  "url": "https://www.pathivaradentalcare.com.np",
   
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Aduwa Khola",
+    "streetAddress": "Opposite to Hotel Hicola",
     "addressLocality": "Birtamode",
     "addressRegion": "Koshi",
     "postalCode": "57204",
     "addressCountry": "NP"
   },
   
-  "telephone": "+977-23530874",
-  "email": "pradhandental.btm@gmail.com",
+  "telephone": "+977-9842051732",
+  "email": "herambjhabpkihs@gmail.com",
   
   "openingHours": [
-    "Su-Fr 9:00-17:00",
+    "Su-Sa 9:00-17:00",
   ],
   
   "medicalSpecialty": ["Dentistry", "Oral Surgery", "Orthodontics", "Periodontics"],
@@ -123,26 +123,25 @@ export const dentalClinicStructuredData: DentalBusinessStructuredData = {
   
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "ratingCount": "2"
+    "ratingValue": "4.0",
+    "ratingCount": "3"
   },
   
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "26.64260", 
-    "longitude": "87.99009"
+    "latitude": "26.64331", 
+    "longitude": "87.99312"
   },
   
   "sameAs": [
-    "https://www.facebook.com/pradhan.dental",
-    "https://www.tiktok.com/search?q=Pradhan%20Dental&t=1758690321548"
+    "https://www.facebook.com/pathivaradentalcare",
   ],
   
   "potentialAction": {
     "@type": "ScheduleAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://www.pradhandental.com/#contact"
+      "urlTemplate": "https://www.pathivaradentalcare.com.np/#contact"
     },
     "result": {
       "@type": "Appointment",

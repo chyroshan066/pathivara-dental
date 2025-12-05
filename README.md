@@ -1,10 +1,10 @@
-# Pradhan Dental Clinic Website
+# Pathivara Dental Care and Implant Centre Website
 
 A comprehensive, responsive dental website built with Next.js and TypeScript, featuring online appointment booking, service showcases, patient testimonials, and seamless customer engagement tools designed to enhance the dental practice experience.
 
 ## 🍽️ About
 
-Pradhan Dental is a premium dental practice website designed to provide patients with an exceptional online experience. The site features elegant design and intuitive navigation to showcase comprehensive dental services and facilitate seamless appointment booking.
+Pathivara Dental is a premium dental practice website designed to provide patients with an exceptional online experience. The site features elegant design and intuitive navigation to showcase comprehensive dental services and facilitate seamless appointment booking.
 
 ## ✨ Features
 
@@ -36,7 +36,7 @@ Pradhan Dental is a premium dental practice website designed to provide patients
 1. **Clone the repository**
    ```bash
    git clone [repository-url]
-   cd rathi-dental
+   cd pathivara-dental
    ```
 
 2. **Install dependencies**
@@ -68,7 +68,7 @@ npm run start
 ## 🏗️ Project Structure
 
 ```
-pradhan-dental/
+pathivara-dental/
 ├── .github/
 ├── public/
 │   ├── fonts/
@@ -150,7 +150,7 @@ The website is fully responsive and tested on:
 
 ### Custom Domain Setup
 
-The website is configured for the custom domain `pradhandental.com`:
+The website is configured for the custom domain `pathivaradentalcare.com.np`:
 
 1. DNS records are configured for the domain
 2. SSL certificates are automatically provisioned
@@ -188,7 +188,7 @@ npm run type-check
 
 The website is deployed on Vercel with automatic deployments:
 
-- **Production**: https://pradhandental.com
+- **Production**: https://pathivaradentalcare.com.np
 - **Preview**: Automatic preview deployments for pull requests
 
 ### Manual Deployment
@@ -201,8 +201,8 @@ npm run export  # if using static export
 ## 📞 Support & Maintenance
 
 ### Client Information
-- **Dental Clinic**: Pradhan Dental
-- **Domain**: pradhandental.com
+- **Dental Clinic**: Pathivara Dental Care and Implant Centre
+- **Domain**: pathivaradentalcare.com.np
 - **Deployment**: Vercel
 
 ### Developer Contact
@@ -210,12 +210,10 @@ For technical support or website updates, contact the developer.
 
 ## 📝 License
 
-This project is proprietary software developed specifically for Pradhan Dental Clinic.
+This project is proprietary software developed specifically for Pathivara Dental Care and Implant Centre.
 
 ---
 
 **Built with ❤️ for Gurung BBQ**
 
 *For any questions or support regarding this website, contact **[chyroshan066](https://github.com/chyroshan066)**.*
-
-slhsgag

@@ -5,10 +5,10 @@ import { Metadata } from 'next';
 const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export const metadata: Metadata = {
-  title: "Pradhan Dental Gallery - Modern Dental Clinic Facilities in Birtamode",
-  description: "Explore Pradhan Dental's state-of-the-art facilities in Birtamode, Nepal. View our modern dental equipment, comfortable treatment rooms, sterilization facilities, and patient-friendly environment designed for quality dental care.",
+  title: "Pathivara Dental Gallery - Modern Dental Clinic Facilities in Birtamode",
+  description: "Explore Pathivara Dental's state-of-the-art facilities in Birtamode, Nepal. View our modern dental equipment, comfortable treatment rooms, sterilization facilities, and patient-friendly environment designed for quality dental care.",
   keywords: [
-    "Pradhan Dental gallery",
+    "Pathivara Dental gallery",
     "dental clinic photos Birtamode",
     "modern dental equipment",
     "dental facility Birtamode",
@@ -29,10 +29,10 @@ export const metadata: Metadata = {
     "dental clinic amenities",
     "Birtamode dental facilities"
   ],
-  authors: [{ name: "Pradhan Dental" }],
-  creator: "Pradhan Dental",
-  publisher: "Pradhan Dental",
-  metadataBase: new URL("https://pradhandental.com"),
+  authors: [{ name: "Pathivara Dental" }],
+  creator: "Pathivara Dental",
+  publisher: "Pathivara Dental",
+  metadataBase: new URL("https://pathivaradentalcare.com.np"),
   alternates: {
     canonical: "/gallery",
   },
@@ -50,32 +50,32 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Pradhan Dental Gallery - Modern Facilities & Equipment",
-    description: "Take a virtual tour of Pradhan Dental's modern facilities in Birtamode. See our advanced dental equipment, comfortable treatment rooms, and patient-centered environment.",
+    title: "Pathivara Dental Gallery - Modern Facilities & Equipment",
+    description: "Take a virtual tour of Pathivara Dental's modern facilities in Birtamode. See our advanced dental equipment, comfortable treatment rooms, and patient-centered environment.",
     type: "website",
     locale: "en_US",
     url: `${baseURL}/gallery`,
-    siteName: "Pradhan Dental",
+    siteName: "Pathivara Dental",
     images: [
       {
         url: `${baseURL}/images/preview.webp`,
         width: 1200,
         height: 630,
-        alt: "Pradhan Dental Clinic Facilities and Equipment Gallery",
+        alt: "Pathivara Dental Clinic Facilities and Equipment Gallery",
       },
     ],
   },
   other: {
     "og:image:type": "image/webp",
     "twitter:card": "summary_large_image",
-    "twitter:title": "Pradhan Dental Gallery - Modern Facilities",
+    "twitter:title": "Pathivara Dental Gallery - Modern Facilities",
     "twitter:description": "Explore our state-of-the-art dental facilities and equipment in Birtamode, Nepal",
     "twitter:image": `${baseURL}/images/preview.webp`,
   },
   category: "health",
   classification: "Dental Clinic Gallery",
   referrer: "origin-when-cross-origin",
-  applicationName: "Pradhan Dental",
+  applicationName: "Pathivara Dental",
   generator: "Next.js",
 };
 

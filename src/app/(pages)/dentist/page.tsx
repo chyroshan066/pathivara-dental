@@ -4,11 +4,11 @@ import { Dentist } from "./_components/Dentist/Dentist";
 const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export const metadata: Metadata = {
-    title: "Meet Dr. Mukesh Kumar Shah - Lead Dentist at Pradhan Dental",
-    description: "Learn about Dr. Mukesh Kumar Shah, lead dentist at Pradhan Dental in Birtamode, Nepal. With 8+ years of experience in advanced dental care, specializing in dental implants, cosmetic dentistry, and comprehensive oral health treatments.",
+    title: "Meet Dr. Heramb Kumar - Lead Dentist at Pathivara Dental Care and Implant Centre",
+    description: "Learn about Dr. Heramb Kumar, lead dentist at Pathivara Dental Care and Implant Centre in Birtamode, Nepal. With 8+ years of experience in advanced dental care, specializing in dental implants, cosmetic dentistry, and comprehensive oral health treatments.",
     keywords: [
-        "Dr. Mukesh Kumar Shah dentist",
-        "lead dentist Pradhan Dental",
+        "Dr. Heramb Kumar dentist",
+        "lead dentist Pathivara Dental",
         "experienced dentist Birtamode",
         "dental specialist Nepal",
         "dentist biography",
@@ -26,12 +26,12 @@ export const metadata: Metadata = {
         "best dentist Birtamode",
         "experienced dental care",
         "dental professional Nepal",
-        "Pradhan Dental team"
+        "Pathivara Dental team"
     ],
-    authors: [{ name: "Pradhan Dental" }],
-    creator: "Pradhan Dental",
-    publisher: "Pradhan Dental",
-    metadataBase: new URL("https://pradhandental.com"),
+    authors: [{ name: "Pathivara Dental" }],
+    creator: "Pathivara Dental",
+    publisher: "Pathivara Dental",
+    metadataBase: new URL("https://pathivaradentalcare.com.np"),
     alternates: {
         canonical: "/dentist",
     },
@@ -49,30 +49,30 @@ export const metadata: Metadata = {
         },
     },
     openGraph: {
-        title: "Meet Dr. Mukesh Kumar Shah - Lead Dentist at Pradhan Dental",
-        description: "Discover the expertise and qualifications of Dr. Mukesh Kumar Shah, our lead dentist with 8+ years of experience in advanced dental care, serving patients in Birtamode and surrounding areas.",
+        title: "Meet Dr. Heramb Kumar - Lead Dentist at Pathivara Dental Care and Implant Centre",
+        description: "Discover the expertise and qualifications of Dr. Heramb Kumar, our lead dentist with 8+ years of experience in advanced dental care, serving patients in Birtamode and surrounding areas.",
         type: "profile",
         locale: "en_US",
         url: `${baseURL}/dentist`,
-        siteName: "Pradhan Dental",
+        siteName: "Pathivara Dental",
         images: [
             {
                 url: `${baseURL}/images/cta-baner.webp`,
                 width: 1200,
                 height: 630,
-                alt: "Dr. Mukesh Kumar Shah - Lead Dentist at Pradhan Dental",
+                alt: "Dr. Heramb Kumar - Lead Dentist at Pathivara Dental Care and Implant Centre",
             }
         ],
     },
     other: {
-        "profile:first_name": "Mukesh",
-        "profile:last_name": "Shah",
-        "profile:username": "dr-mukesh-kumar-shah-pradhan-dental",
+        "profile:first_name": "Heramb",
+        "profile:last_name": "Kumar",
+        "profile:username": "dr-heramb-kumar-pathivara-dental",
     },
     category: "health",
     classification: "Dental Professional Profile",
     referrer: "origin-when-cross-origin",
-    applicationName: "Pradhan Dental",
+    applicationName: "Pathivara Dental",
     generator: "Next.js",
 };
 
