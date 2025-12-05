@@ -32,7 +32,7 @@ ServiceCard.displayName = "ServiceCard";
 
 export const Service = memo(() => (
     <section
-        className={`section -mt-50 lg:-mt-40 ${styles.service}`}
+        className={`section  ${styles.service}`}
         id="service"
         aria-label="service"
     >

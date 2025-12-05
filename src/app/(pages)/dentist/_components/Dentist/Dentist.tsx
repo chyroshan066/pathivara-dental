@@ -38,7 +38,7 @@ export const Dentist = memo(() => {
         <main>
             {/* Hero Section*/}
             <section style={{
-                background: 'linear-gradient(135deg, var(--warm-orange-brown) 0%, var(--bright-amber) 100%)',
+                background: 'linear-gradient(135deg, var(--deep-teal) 0%, var(--bright-teal) 100%)',
                 paddingTop: '30px',
                 paddingBottom: '45px',
                 marginTop: '95px'
@@ -79,7 +79,7 @@ export const Dentist = memo(() => {
                                 right: '-50px',
                                 width: '150px',
                                 height: '150px',
-                                background: 'linear-gradient(135deg, var(--bright-amber), var(--deep-golden-orange))',
+                                background: 'linear-gradient(135deg, var(--bright-teal), var(--vibrant-coral))',
                                 borderRadius: '50%',
                                 opacity: '0.1',
                                 zIndex: '1'
@@ -97,7 +97,7 @@ export const Dentist = memo(() => {
                                     style={{
                                         "--width": 220,
                                         "--height": 220,
-                                        border: '6px solid var(--bright-amber)',
+                                        border: '6px solid var(--bright-teal)',
                                         borderRadius: '50%',
                                         padding: '8px',
                                         background: 'white',
@@ -119,7 +119,7 @@ export const Dentist = memo(() => {
                                         right: '10px',
                                         width: '40px',
                                         height: '40px',
-                                        background: 'var(--deep-golden-orange)',
+                                        background: 'var(--vibrant-coral)',
                                         borderRadius: '50%',
                                         display: 'flex',
                                         alignItems: 'center',
@@ -143,14 +143,14 @@ export const Dentist = memo(() => {
                                     className={`h25 ${styles.dentistName}`}
                                     style={{
                                         marginTop: '30px',
-                                        color: 'var(--warm-orange-brown)'
+                                        color: 'var(--deep-teal)'
                                     }}>
                                     Dr. Mukesh Kumar Shah
                                 </h2>
                                 <h3
                                     className={styles.dentistTitle}
                                     style={{
-                                        background: 'linear-gradient(135deg, var(--bright-amber), var(--deep-golden-orange))',
+                                        background: 'linear-gradient(135deg, var(--bright-teal), var(--vibrant-coral))',
                                         WebkitBackgroundClip: 'text',
                                         WebkitTextFillColor: 'transparent',
                                         fontSize: '1.8rem',
@@ -163,8 +163,8 @@ export const Dentist = memo(() => {
                                 <div
                                     className={styles.dentistQualificationBadge}
                                     style={{
-                                        background: 'linear-gradient(135deg, var(--golden-cream), #e8f5f0)',
-                                        border: '2px solid var(--bright-amber)',
+                                        background: 'linear-gradient(135deg, var(--pale-aqua), #e8f5f0)',
+                                        border: '2px solid var(--bright-teal)',
                                         borderRadius: '15px',
                                         padding: '20px 30px',
                                         marginBottom: '25px',
@@ -177,7 +177,7 @@ export const Dentist = memo(() => {
                                         <p
                                             key={index}
                                             style={{
-                                                color: 'var(--deep-orange-brown)',
+                                                color: 'var(--darkest-teal)',
                                                 fontWeight: '800',
                                                 fontSize: '1.6rem',
                                                 letterSpacing: '1px'
@@ -191,11 +191,11 @@ export const Dentist = memo(() => {
                                 <div
                                     className={styles.dentistInstitutionInfo}
                                     style={{
-                                        background: 'linear-gradient(135deg, var(--deep-orange-brown), var(--warm-orange-brown))',
+                                        background: 'linear-gradient(135deg, var(--darkest-teal), var(--deep-teal))',
                                         borderRadius: '15px',
                                         padding: '25px',
                                         boxShadow: '0 15px 40px rgba(0, 0, 0, 0.15)',
-                                        border: '1px solid var(--bright-amber)'
+                                        border: '1px solid var(--bright-teal)'
                                     }}>
                                     <p
                                         className={styles.institutionText}
@@ -210,7 +210,7 @@ export const Dentist = memo(() => {
                                             fontSize: '1.2rem',
                                             opacity: '0.9',
                                             fontWeight: '500',
-                                            color: 'var(--golden-orange)'
+                                            color: 'var(--soft-coral)'
                                         }}>
                                             NMC No: 20945
                                         </span>
@@ -231,7 +231,7 @@ export const Dentist = memo(() => {
                             <h3
                                 className="section-subtitle"
                                 style={{
-                                    color: 'var(--deep-golden-orange)',
+                                    color: 'var(--vibrant-coral)',
                                     fontSize: '1.4rem',
                                     letterSpacing: '2px',
                                     marginBottom: '15px'
@@ -239,7 +239,7 @@ export const Dentist = memo(() => {
                                 ABOUT
                             </h3>
                             <h2 style={{
-                                color: 'var(--warm-orange-brown)',
+                                color: 'var(--deep-teal)',
                                 fontSize: '2.8rem',
                                 fontWeight: '700',
                                 marginBottom: '30px',
@@ -255,7 +255,7 @@ export const Dentist = memo(() => {
                                     style={{
                                         fontSize: '1.6rem',
                                         lineHeight: '1.8',
-                                        color: 'var(--warm-orange-taupe)',
+                                        color: 'var(--teal-gray)',
                                         marginBottom: '30px'
                                     }}
                                 >
@@ -268,7 +268,7 @@ export const Dentist = memo(() => {
                                 style={{
                                     fontSize: '1.6rem',
                                     lineHeight: '1.8',
-                                    color: 'var(--warm-orange-taupe)'
+                                    color: 'var(--teal-gray)'
                                 }}>
                                 JC Dr. Mukesh Kumar Shah is a multi-faceted professional who excels in dentistry, leadership, and social service. His contributions to orthodontics, his efforts in strengthening professional networks, and his dedication to community welfare make him a respected figure in both medical and social sectors. Through his ongoing work, he continues to inspire young professionals and contribute to the overall development of Jhapa.
                             </p>
@@ -288,7 +288,7 @@ export const Dentist = memo(() => {
                                     <div style={{
                                         width: '40px',
                                         height: '40px',
-                                        background: 'var(--deep-golden-orange)',
+                                        background: 'var(--vibrant-coral)',
                                         borderRadius: '50%',
                                         display: 'flex',
                                         alignItems: 'center',
@@ -301,7 +301,7 @@ export const Dentist = memo(() => {
                                     </div>
                                     <span style={{
                                         fontSize: '1.5rem',
-                                        color: 'var(--warm-orange-brown)',
+                                        color: 'var(--deep-teal)',
                                         fontWeight: '600'
                                     }}>
                                         TU Graduate & NMC Registered
@@ -319,7 +319,7 @@ export const Dentist = memo(() => {
                                     <div style={{
                                         width: '40px',
                                         height: '40px',
-                                        background: 'var(--deep-golden-orange)',
+                                        background: 'var(--vibrant-coral)',
                                         borderRadius: '50%',
                                         display: 'flex',
                                         alignItems: 'center',
@@ -332,7 +332,7 @@ export const Dentist = memo(() => {
                                     </div>
                                     <span style={{
                                         fontSize: '1.5rem',
-                                        color: 'var(--warm-orange-brown)',
+                                        color: 'var(--deep-teal)',
                                         fontWeight: '600'
                                     }}>
                                         Patient-Centered Care Approach
@@ -346,7 +346,7 @@ export const Dentist = memo(() => {
 
             {/* Training & Expertise Section */}
             <section style={{
-                background: 'linear-gradient(135deg, var(--darkest-orange-brown) 0%, var(--deep-orange-brown) 100%)',
+                background: 'linear-gradient(135deg, var(--rich-navy-teal) 0%, var(--darkest-teal) 100%)',
                 padding: '100px 0',
                 position: 'relative',
                 overflow: 'hidden'
@@ -364,7 +364,7 @@ export const Dentist = memo(() => {
                         <h3
                             className="section-subtitle"
                             style={{
-                                color: 'var(--bright-amber)',
+                                color: 'var(--bright-teal)',
                                 fontSize: '1.4rem',
                                 letterSpacing: '2px',
                                 marginBottom: '15px'
@@ -382,7 +382,7 @@ export const Dentist = memo(() => {
                             Advanced Dental Expertise
                         </h2>
                         <p style={{
-                            color: 'var(--golden-orange)',
+                            color: 'var(--soft-coral)',
                             fontSize: '1.6rem',
                             maxWidth: '700px',
                             margin: '0 auto',
@@ -421,13 +421,13 @@ export const Dentist = memo(() => {
                                 left: '0',
                                 right: '0',
                                 height: '6px',
-                                background: 'linear-gradient(90deg, var(--bright-amber), var(--deep-golden-orange))'
+                                background: 'linear-gradient(90deg, var(--bright-teal), var(--vibrant-coral))'
                             }} />
 
                             <div style={{
                                 width: '90px',
                                 height: '90px',
-                                background: 'linear-gradient(135deg, var(--bright-amber), var(--deep-golden-orange))',
+                                background: 'linear-gradient(135deg, var(--bright-teal), var(--vibrant-coral))',
                                 borderRadius: '50%',
                                 display: 'flex',
                                 alignItems: 'center',
@@ -445,7 +445,7 @@ export const Dentist = memo(() => {
                                     position: 'absolute',
                                     width: '110px',
                                     height: '110px',
-                                    border: '2px solid var(--bright-amber)',
+                                    border: '2px solid var(--bright-teal)',
                                     borderRadius: '50%',
                                     opacity: '0.3',
                                     animation: 'pulse 2s infinite'
@@ -455,7 +455,7 @@ export const Dentist = memo(() => {
                             <h4
                                 className={styles.trainingCardTitle}
                                 style={{
-                                    color: 'var(--warm-orange-brown)',
+                                    color: 'var(--deep-teal)',
                                     fontSize: '2.2rem',
                                     fontWeight: '700',
                                     marginBottom: '25px'
@@ -478,7 +478,7 @@ export const Dentist = memo(() => {
                                             alignItems: 'center',
                                             marginBottom: '18px',
                                             fontSize: '1.6rem',
-                                            color: 'var(--warm-orange-taupe)',
+                                            color: 'var(--teal-gray)',
                                             padding: '12px',
                                             background: 'rgba(150, 211, 169, 0.08)',
                                             borderRadius: '10px',
@@ -487,7 +487,7 @@ export const Dentist = memo(() => {
                                         <span style={{
                                             width: '12px',
                                             height: '12px',
-                                            background: 'var(--deep-golden-orange)',
+                                            background: 'var(--vibrant-coral)',
                                             borderRadius: '50%',
                                             marginRight: '18px',
                                             flexShrink: '0'
@@ -502,7 +502,7 @@ export const Dentist = memo(() => {
                                         display: 'flex',
                                         alignItems: 'center',
                                         fontSize: '1.6rem',
-                                        color: 'var(--warm-orange-taupe)',
+                                        color: 'var(--teal-gray)',
                                         padding: '12px',
                                         background: 'rgba(150, 211, 169, 0.08)',
                                         borderRadius: '10px',
@@ -511,7 +511,7 @@ export const Dentist = memo(() => {
                                     <span style={{
                                         width: '12px',
                                         height: '12px',
-                                        background: 'var(--deep-golden-orange)',
+                                        background: 'var(--vibrant-coral)',
                                         borderRadius: '50%',
                                         marginRight: '18px',
                                         flexShrink: '0'
@@ -543,13 +543,13 @@ export const Dentist = memo(() => {
                                 left: '0',
                                 right: '0',
                                 height: '6px',
-                                background: 'linear-gradient(90deg, var(--bright-amber), var(--deep-golden-orange))'
+                                background: 'linear-gradient(90deg, var(--bright-teal), var(--vibrant-coral))'
                             }} />
 
                             <div style={{
                                 width: '90px',
                                 height: '90px',
-                                background: 'linear-gradient(135deg, var(--bright-amber), var(--deep-golden-orange))',
+                                background: 'linear-gradient(135deg, var(--bright-teal), var(--vibrant-coral))',
                                 borderRadius: '50%',
                                 display: 'flex',
                                 alignItems: 'center',
@@ -566,7 +566,7 @@ export const Dentist = memo(() => {
                                     position: 'absolute',
                                     width: '110px',
                                     height: '110px',
-                                    border: '2px solid var(--bright-amber)',
+                                    border: '2px solid var(--bright-teal)',
                                     borderRadius: '50%',
                                     opacity: '0.3',
                                     animation: 'pulse 2s infinite'
@@ -576,7 +576,7 @@ export const Dentist = memo(() => {
                             <h4
                                 className={styles.trainingCardTitle}
                                 style={{
-                                    color: 'var(--warm-orange-brown)',
+                                    color: 'var(--deep-teal)',
                                     fontSize: '2.2rem',
                                     fontWeight: '700',
                                     marginBottom: '25px'
@@ -595,7 +595,7 @@ export const Dentist = memo(() => {
                                     className={styles.communityServiceText}
                                     style={{
                                         fontSize: '1.6rem',
-                                        color: 'var(--warm-orange-taupe)',
+                                        color: 'var(--teal-gray)',
                                         lineHeight: '1.7',
                                         margin: '0'
                                     }}>
@@ -619,7 +619,7 @@ export const Dentist = memo(() => {
                     <h3
                         className="section-subtitle"
                         style={{
-                            color: 'var(--deep-golden-orange)',
+                            color: 'var(--vibrant-coral)',
                             fontSize: '1.4rem',
                             letterSpacing: '2px',
                             marginBottom: '15px'
@@ -629,7 +629,7 @@ export const Dentist = memo(() => {
                     <h2
                         className="h2"
                         style={{
-                            color: 'var(--warm-orange-brown)',
+                            color: 'var(--deep-teal)',
                             fontSize: '3.2rem',
                             fontWeight: '700',
                             marginBottom: '25px'
@@ -640,7 +640,7 @@ export const Dentist = memo(() => {
                         className="section-text"
                         style={{
                             fontSize: '1.6rem',
-                            color: 'var(--warm-orange-taupe)',
+                            color: 'var(--teal-gray)',
                             maxWidth: '700px',
                             margin: '0 auto 50px',
                             lineHeight: '1.7'

@@ -18,19 +18,19 @@ type AlertProps = {
 
 const alertStyles = {
     success: {
-        container: "bg-[var(--bright-amber)]/30 border-l-4 border-[var(--bright-amber)] backdrop-blur-sm",
-        icon: "text-[var(--bright-amber)]",
-        title: "text-[var(--warm-orange-brown)]",
-        message: "text-[var(--deep-orange-brown)]",
-        closeButton: "text-[var(--warm-orange-taupe)] hover:text-[var(--bright-amber)] hover:bg-[var(--bright-amber)]/10 rounded-full",
+        container: "bg-[var(--bright-teal)]/30 border-l-4 border-[var(--bright-teal)] backdrop-blur-sm",
+        icon: "text-[var(--bright-teal)]",
+        title: "text-[var(--deep-teal)]",
+        message: "text-[var(--darkest-teal)]",
+        closeButton: "text-[var(--teal-gray)] hover:text-[var(--bright-teal)] hover:bg-[var(--bright-teal)]/10 rounded-full",
         name: "checkmark-circle-outline",
     },
     error: {
         container: "bg-red-50 border-l-4 border-red-500 backdrop-blur-sm",
         icon: "text-red-500",
-        title: "text-[var(--warm-orange-brown)]",
-        message: "text-[var(--deep-orange-brown)]",
-        closeButton: "text-[var(--warm-orange-taupe)] hover:text-red-500 hover:bg-red-50 rounded-full",
+        title: "text-[var(--deep-teal)]",
+        message: "text-[var(--darkest-teal)]",
+        closeButton: "text-[var(--teal-gray)] hover:text-red-500 hover:bg-red-50 rounded-full",
         name: "alert-circle-outline",
     },
 } as const;

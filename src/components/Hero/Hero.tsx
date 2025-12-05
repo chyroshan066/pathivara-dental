@@ -8,17 +8,17 @@ import { SocialIcon } from "../utility/SocialIcon/SocialIcon";
 import { HeroSlider } from "../HeroSlider";
 
 const HEROSLIDES: string[] = [
-    "/images/hero-banner.webp",
-    "/images/media/images/g1.webp",
-    "/images/media/images/g2.webp",
-    "/images/media/images/g3.webp",
-    "/images/media/images/g5.webp",
-    "/images/cta-banner.webp",
-    "/images/media/images/g4.webp",
-    "/images/media/images/g9.webp",
-    "/images/media/images/g6.webp",
-    "/images/media/images/g10.webp",
-    "/images/media/images/g11.webp",
+    // "/images/hero-banner.webp",
+    // "/images/media/images/g1.webp",
+    // "/images/media/images/g2.webp",
+    // "/images/media/images/g3.webp",
+    // "/images/media/images/g5.webp",
+    // "/images/cta-banner.webp",
+    // "/images/media/images/g4.webp",
+    // "/images/media/images/g9.webp",
+    // "/images/media/images/g6.webp",
+    // "/images/media/images/g10.webp",
+    // "/images/media/images/g11.webp",
 ];
 
 export const Hero = memo(() => (
@@ -30,7 +30,7 @@ export const Hero = memo(() => (
     >
         <div className={`custom-container ${styles.customContainer}`}>
             <div className={styles.heroContent}>
-                <p className="section-subtitle">Welcome To Pradhan Dental Clinic</p>
+                <p className="section-subtitle">Welcome To Pathivara Dental Care & Implant Centre</p>
                 <h1 className={`h25 ${styles.heroTitle}`}>We Are The Best Dental Service Provider In Town</h1>
                 <p className="text-[var(--warm-beige_50] mb-10 leading-[1.45] text-[length:var(--fontSize-6)]">
                     Transforming smiles with precision, care, and cutting-edge technology. Experience dentistry that exceeds expectations.
@@ -39,7 +39,7 @@ export const Hero = memo(() => (
                 <ContactColumn />
                 <SocialIcon
                     className="justify-start"
-                    linkClassName="text-[var(--deep-golden-orange)] mt-5"
+                    linkClassName="text-[var(--vibrant-coral)] mt-5"
                 />
 
                 <div className="inline-block w-full md:w-auto mt-10">

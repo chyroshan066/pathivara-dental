@@ -39,7 +39,7 @@ export const HeroSlider = memo(({
     if (!slides || slides.length === 0) {
         return (
             <div className="w-full h-full bg-gray-200 flex items-center justify-center rounded-lg">
-                <span className="text-warm-orange-brown">No images available</span>
+                <span className="text-deep-teal">No images available</span>
             </div>
         );
     }
@@ -75,7 +75,7 @@ export const HeroSlider = memo(({
                 <>
                     <button
                         onClick={prevSlide}
-                        className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 w-15 h-15 lg:w-20 lg:h-20 bg-[var(--bright-amber)] rounded-full shadow-lg flex items-center justify-center transition-all duration-200"
+                        className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 w-15 h-15 lg:w-20 lg:h-20 bg-[var(--bright-teal)] rounded-full shadow-lg flex items-center justify-center transition-all duration-200"
                         aria-label="Previous slide"
                     >
                         <CaretLeftIcon
@@ -86,7 +86,7 @@ export const HeroSlider = memo(({
 
                     <button
                         onClick={nextSlide}
-                        className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 w-15 h-15 lg:w-20 lg:h-20 bg-[var(--bright-amber)] rounded-full shadow-lg flex items-center justify-center transition-all duration-200"
+                        className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 w-15 h-15 lg:w-20 lg:h-20 bg-[var(--bright-teal)] rounded-full shadow-lg flex items-center justify-center transition-all duration-200"
                         aria-label="Next slide"
                     >
                         <CaretRightIcon
@@ -95,23 +95,6 @@ export const HeroSlider = memo(({
                         />
                     </button>
                 </>
-            )}
-
-            {/* Dots Indicator */}
-            {slides.length > 1 && (
-                <div className="absolute bottom-3 md:bottom-4 left-1/2 -translate-x-1/2 flex space-x-2 z-20">
-                    {slides.map((_, index) => (
-                        <button
-                            key={index}
-                            onClick={() => goToSlide(index)}
-                            className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all duration-300 ${index === currentSlide
-                                ? "bg-deep-golden-orange scale-125"
-                                : "bg-white/90 hover:bg-white"
-                                }`}
-                            aria-label={`Go to slide ${index + 1}`}
-                        />
-                    ))}
-                </div>
             )}
         </div>
     );

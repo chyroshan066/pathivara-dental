@@ -26,11 +26,11 @@ const FACILITIES: Facility[] = [
         title: "Dental Lab",
         description: "In-house dental laboratory ensuring quick turnaround for crowns, bridges, dentures and other prosthetic work."
     },
-    {
-        icon: "storefront-outline",
-        title: "Pharmacy",
-        description: "On-site pharmacy stocked with essential dental medications and post-treatment care products for your convenience."
-    },
+    // {
+    //     icon: "storefront-outline",
+    //     title: "Pharmacy",
+    //     description: "On-site pharmacy stocked with essential dental medications and post-treatment care products for your convenience."
+    // },
     {
         icon: "analytics-outline",
         title: "Pathology",
@@ -47,10 +47,10 @@ const STATS: Stats[] = [
         title: "In-House Lab",
         description: "Same Day Service",
     },
-    {
-        title: "Full Pharmacy",
-        description: "All Medications Available",
-    },
+    // {
+    //     title: "Full Pharmacy",
+    //     description: "All Medications Available",
+    // },
     {
         title: "Lab Reports",
         description: "Quick & Accurate",
@@ -73,7 +73,7 @@ export const Facility = memo(() => {
                         style={{
                             maxWidth: '600px',
                             margin: '20px auto 60px',
-                            color: 'var(--warm-orange-taupe)'
+                            color: 'var(--teal-gray)'
                         }}
                     >
                         We are equipped with cutting-edge technology and modern facilities to provide you with the highest standard of dental care in a comfortable environment.
@@ -96,7 +96,7 @@ export const Facility = memo(() => {
                                 boxShadow: 'var(--shadow-2)',
                                 textAlign: 'center',
                                 transition: 'var(--transition-2)',
-                                border: '1px solid var(--light-peach-beige)'
+                                border: '1px solid var(--light-seafoam)'
                             }}
                             onMouseEnter={(e) => {
                                 e.currentTarget.style.transform = 'translateY(-8px)';
@@ -123,7 +123,6 @@ export const Facility = memo(() => {
                                     name={facility.icon}
                                     size="large"
                                     className={styles.facilityIcon}
-                                    color="white"
                                 />
                             </div>
 
@@ -131,14 +130,14 @@ export const Facility = memo(() => {
                                 className="h3"
                                 style={{
                                     marginBottom: '15px',
-                                    color: 'var(--deep-orange-brown)'
+                                    color: 'var(--darkest-teal)'
                                 }}
                             >
                                 {facility.title}
                             </h3>
 
                             <p style={{
-                                color: 'var(--warm-orange-taupe)',
+                                color: 'var(--teal-gray)',
                                 lineHeight: '1.6',
                                 fontSize: '1.5rem'
                             }}>
@@ -155,7 +154,7 @@ export const Facility = memo(() => {
                     gap: '30px',
                     marginTop: '80px',
                     padding: '50px 30px',
-                    background: 'linear-gradient(135deg, var(--golden-cream) 0%, var(--warm-peach-beige_50) 100%)',
+                    background: 'linear-gradient(135deg, var(--pale-aqua) 0%, var(--soft-mint_50) 100%)',
                     borderRadius: 'var(--radius-6)',
                     textAlign: 'center'
                 }}>
@@ -165,13 +164,13 @@ export const Facility = memo(() => {
                             <h3
                                 className="h25"
                                 style={{
-                                    color: 'var(--deep-golden-orange)',
+                                    color: 'var(--vibrant-coral)',
                                     marginBottom: '10px'
                                 }}
                             >
                                 {stat.title}
                             </h3>
-                            <p style={{ color: 'var(--warm-orange-taupe)', fontSize: '1.4rem' }}>
+                            <p style={{ color: 'var(--teal-gray)', fontSize: '1.4rem' }}>
                                 {stat.description}
                             </p>
                         </div>

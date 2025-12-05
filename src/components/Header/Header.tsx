@@ -45,10 +45,10 @@ export const Header = memo(() => {
                         <li className={styles.contactItem}>
                             <IonIcon name="mail-outline" />
                             <a
-                                href="mailto:pradhandental.btm@gmail.com"
+                                href="mailto:herambjhabpkihs@gmail.com"
                                 className={styles.contactLink}
                             >
-                                pradhandental.btm@gmail.com
+                                herambjhabpkihs@gmail.com
                             </a>
                         </li>
 
@@ -97,8 +97,8 @@ export const Header = memo(() => {
                         className={styles.logo}
                     >
                         <Image
-                            width={120}
-                            height={200}
+                            width={60}
+                            height={50}
                             src="/images/logo.webp"
                             alt="logo"
                         />

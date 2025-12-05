@@ -5,12 +5,12 @@ import styles from "./CallToAction.module.css";
 
 export const CallToAction = memo(() => (
     <section
-        className={`section ${styles.cta}`}
+        className={`section mt-40 ${styles.cta}`}
         aria-label="cta"
     >
         <div className={`custom-container ${styles.customContainer}`}>
 
-            <figure className={`${styles.ctaBanner} relative h-166 overflow-hidden bg-light-warm-beige flex items-center justify-center`}>
+            {/* <figure className={`${styles.ctaBanner} relative h-166 overflow-hidden bg-light-warm-beige flex items-center justify-center`}>
                 <Image
                     src="/images/cta-banner.webp"
                     width={800}
@@ -20,7 +20,7 @@ export const CallToAction = memo(() => (
                     className="object-contain max-h-full max-w-full"
                     priority={false}
                 />
-            </figure>
+            </figure> */}
 
             <div className={styles.ctaContent}>
                 <p className={`section-subtitle ${styles.sectionSubtitle}`}>Book Dental Appointment</p>

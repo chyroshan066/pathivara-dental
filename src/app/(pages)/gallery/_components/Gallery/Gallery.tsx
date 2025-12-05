@@ -442,13 +442,13 @@ export default function Gallery({
         .stat-number {
           font-size: var(--fontSize-4);
           font-weight: var(--weight-700);
-          color: var(--warm-orange-brown);
+          color: var(--deep-teal);
           line-height: 1;
         }
 
         .stat-label {
           font-size: var(--fontSize-7);
-          color: var(--warm-orange-taupe);
+          color: var(--teal-gray);
           margin-top: 5px;
         }
 
@@ -484,7 +484,7 @@ export default function Gallery({
           display: flex;
           align-items: center;
           justify-content: center;
-          color: var(--deep-golden-orange);
+          color: var(--vibrant-coral);
           font-size: 18px;
           backdrop-filter: blur(10px);
           opacity: 0;
@@ -522,18 +522,18 @@ export default function Gallery({
         .gallery-empty {
           text-align: center;
           padding: 80px 20px;
-          color: var(--warm-orange-taupe);
+          color: var(--teal-gray);
         }
 
         .empty-icon {
           font-size: 64px;
-          color: var(--light-peach-beige);
+          color: var(--light-seafoam);
           margin-bottom: 20px;
         }
 
         .empty-title {
           font-size: var(--fontSize-4);
-          color: var(--warm-orange-brown);
+          color: var(--deep-teal);
           margin-bottom: 15px;
         }
 
@@ -679,7 +679,7 @@ export default function Gallery({
           appearance: none;
           width: 14px;
           height: 14px;
-          background: var(--deep-golden-orange);
+          background: var(--vibrant-coral);
           border-radius: 50%;
           cursor: pointer;
         }
@@ -687,7 +687,7 @@ export default function Gallery({
         .volume-slider::-moz-range-thumb {
           width: 14px;
           height: 14px;
-          background: var(--deep-golden-orange);
+          background: var(--vibrant-coral);
           border-radius: 50%;
           cursor: pointer;
           border: none;
@@ -710,13 +710,13 @@ export default function Gallery({
 
         .lightbox-title {
           font-size: var(--fontSize-5);
-          color: var(--warm-orange-brown);
+          color: var(--deep-teal);
           margin: 0;
           font-weight: var(--weight-600);
         }
 
         .lightbox-description {
-          color: var(--warm-orange-taupe);
+          color: var(--teal-gray);
           line-height: 1.6;
           margin: 0;
           font-size: 14px;
@@ -742,9 +742,9 @@ export default function Gallery({
         }
 
         .image-counter {
-          color: var(--deep-golden-orange);
+          color: var(--vibrant-coral);
           font-weight: var(--weight-600);
-          background: rgba(var(--deep-golden-orange-rgb, 88, 56, 255), 0.1);
+          background: rgba(var(--vibrant-coral-rgb, 88, 56, 255), 0.1);
           padding: 8px 16px;
           border-radius: 20px;
           font-size: 13px;
@@ -931,7 +931,7 @@ export default function Gallery({
         .video-control-btn:focus,
         .lightbox-close:focus,
         .lightbox-nav:focus {
-          outline: 2px solid var(--deep-golden-orange);
+          outline: 2px solid var(--vibrant-coral);
           outline-offset: 2px;
         }
 

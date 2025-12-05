@@ -32,7 +32,7 @@
   margin-block-end: 10px;
 }
 .dentistTitle {
-  color: var(--deep-golden-orange);
+  color: var(--vibrant-coral);
   font-family: var(--fontFamily-poppins);
 }
 .dentistQualificationBadge {
@@ -60,12 +60,12 @@
 }
 .communityServiceText {
   font-size: var(--fontSize-7);
-  color: var(--warm-orange-taupe);
+  color: var(--teal-gray);
   line-height: 1.6;
   margin: 0;
 }
 .highlightedText {
-  background: linear-gradient(135deg, var(--bright-amber), var(--deep-golden-orange));
+  background: linear-gradient(135deg, var(--bright-teal), var(--vibrant-coral));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

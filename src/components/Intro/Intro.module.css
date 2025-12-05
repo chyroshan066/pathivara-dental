@@ -20,7 +20,7 @@
   margin-block-end: 40px;
 }
 .introHeader .sectionSubtitle {
-  color: var(--deep-golden-orange);
+  color: var(--vibrant-coral);
 }
 .introHeader .sectionTitle {
   margin-block-end: 20px;
@@ -151,7 +151,7 @@
   font-weight: var(--weight-500);
 }
 .badgeDuration {
-  background: var(--deep-golden-orange);
+  background: var(--vibrant-coral);
   padding: 2px 8px;
   border-radius: 12px;
   font-size: 12px;
@@ -177,7 +177,7 @@
 .decorationDots span {
   width: 8px;
   height: 8px;
-  background: var(--deep-golden-orange);
+  background: var(--vibrant-coral);
   border-radius: 50%;
   opacity: 0.3;
   animation: pulse 2s ease-in-out infinite;

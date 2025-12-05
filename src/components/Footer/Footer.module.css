@@ -8,8 +8,8 @@
   margin-inline: auto;
 }
 .footerTop {
-  background-color: var(--deep-orange-brown);
-  color: var(--golden-orange);
+  background-color: var(--darkest-teal);
+  color: var(--soft-coral);
 }
 .footerTop .customContainer {
   display: grid;
@@ -60,7 +60,7 @@
   margin-block-end: 10px;
 }
 .footerBottom {
-  background-color: var(--darkest-orange-brown);
+  background-color: var(--rich-navy-teal);
   padding-block: 50px;
   text-align: center;
 }

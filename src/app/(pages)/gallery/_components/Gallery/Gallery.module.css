@@ -34,8 +34,8 @@
   height: 100%;
   background: linear-gradient(
     135deg,
-    var(--warm-orange-brown) 0%,
-    var(--bright-amber) 100%
+    var(--deep-teal) 0%,
+    var(--bright-teal) 100%
   );
   opacity: 0;
   display: flex;
@@ -65,7 +65,7 @@
   width: 60px;
   height: 60px;
   background-color: var(--white);
-  color: var(--bright-amber);
+  color: var(--bright-teal);
   border-radius: 50%;
   display: flex;
   align-items: center;

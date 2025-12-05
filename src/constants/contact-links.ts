@@ -2,13 +2,13 @@ import { Contact } from "@/types";
 
 export const CONTACTS: Contact[] = [
     {
-        href: "tel:+97723530874",
+        href: "tel:+9779842051732",
         ionIcon: "call-outline",
-        textNumber: "023-530874",
+        textNumber: "9842051732",
     },
     {
-        href: "https://wa.me/9779825985139",
+        href: "https://wa.me/9779803365179",
         ionIcon: "logo-whatsapp",
-        textNumber: "9825985139",
+        textNumber: "9803365179",
     },
 ];

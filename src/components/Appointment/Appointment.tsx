@@ -136,7 +136,7 @@ export const Appointment = memo(() => {
                     >
                         <h2 className="headline-1 text-center">Book Appointment</h2>
                         <p className={`text-center ${styles.formText}`}>
-                            Booking request <a href="tel:+97723530874" className={styles.link}>023-530874 </a>
+                            Booking request <a href="tel:+9779842051732" className={styles.link}>9842051732 </a>
                             or fill out the appointment form
                         </p>
                         <div className={styles.inputWrapper}>
@@ -268,10 +268,10 @@ export const Appointment = memo(() => {
                         <h2 className={`headline-1 text-center ${styles.headline1}`}>Contact Us</h2>
                         <p className={`contact-label ${styles.contactLabel}`}>Booking Request</p>
                         <a
-                            href="tel:+97723530874"
+                            href="tel:+9779842051732"
                             className="body-1 contact-number hover-underline"
                         >
-                            023-530874
+                            9842051732
                         </a>
                         <div className={`separator ${styles.separator}`}></div>
                         <p className={`contact-label ${styles.contactLabel}`}>Location</p>

@@ -57,7 +57,7 @@ export const Footer = memo(() => (
                         href="/"
                         className={`${styles.logo}`}
                     >
-                        Pradhan Dental
+                        Pathivara Dental
                     </Link>
                     <p className={styles.footerText}>
                         Your trusted <strong>dental clinic in Birtamode</strong> for <strong>dental implants</strong>, <strong>braces</strong>, <strong>cosmetic dentistry</strong>, <strong>root canal</strong>, <strong>teeth whitening</strong>, <strong>orthodontics</strong>, and <strong>family dental care</strong> at an affordable price. Visit <strong>Pradhan Dental Nepal</strong> for healthy smiles.
@@ -98,7 +98,7 @@ export const Footer = memo(() => (
         <div className={styles.footerBottom}>
             <div className={styles.customContainer}>
                 <p className={styles.copyright}>
-                    &copy; 2025 All Rights Reserved by Pradhan Dental Clinic.
+                    &copy; 2025 All Rights Reserved by Pathivara Dental Care & Implant Centre.
                 </p>
                 <SocialIcon
                     className="justify-center"

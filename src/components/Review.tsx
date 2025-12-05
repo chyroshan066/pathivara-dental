@@ -65,7 +65,7 @@ export const Review = memo(() => {
           {/* Call to Action */}
           <div className="review-cta">
             <a
-              href="https://g.page/r/CQfwO7qBKoGXEBM/review"
+              href="https://search.google.com/local/writereview?placeid=ChIJQXe7bmC65TkR65gv1uPFj0s"
               target="_blank"
               rel="noopener noreferrer"
               className="btn review-btn-primary"
@@ -99,10 +99,10 @@ export const Review = memo(() => {
           overflow: hidden;
           /* Use the new consistent background */
           background: linear-gradient(135deg, 
-            hsl(45, 50%, 96%) 0%, 
-            hsl(40, 40%, 94%) 33%, 
-            hsl(35, 35%, 92%) 66%, 
-            hsl(45, 45%, 95%) 100%
+            hsl(0, 0%, 100%) 0%, 
+            hsl(210, 17%, 98%) 33%, 
+            hsl(210, 17%, 97%) 66%, 
+            hsl(0, 0%, 99%) 100%
           );
         }
         .review-request::before {

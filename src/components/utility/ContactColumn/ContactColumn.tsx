@@ -15,7 +15,7 @@ export const ContactColumn = memo(() => (
                 target="_blank"
             >
                 <address className={styles.itemText}>
-                    Near Aduwa Khola Bridge <br />
+                    Opposite to Hotel Hicola <br />
                     Birtamode, Jhapa, Nepal
                 </address>
             </a>
@@ -44,10 +44,10 @@ export const ContactColumn = memo(() => (
                 <IonIcon name="mail-outline" />
             </div>
             <a
-                href="mailto:pradhandental.btm@gmail.com"
+                href="mailto:herambjhabpkihs@gmail.com"
                 className="footer-link"
             >
-                pradhandental.btm@gmail.com
+                herambjhabpkihs@gmail.com
             </a>
         </li>
     </>

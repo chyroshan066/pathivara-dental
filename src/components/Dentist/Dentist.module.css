@@ -8,7 +8,7 @@
 }
 .doctorCard {
   padding: 30px;
-  border: 1px solid var(--light-peach-beige);
+  border: 1px solid var(--light-seafoam);
   border-radius: var(--radius-4);
   text-align: center;
   min-height: 100%;
@@ -18,10 +18,10 @@
   transition: var(--transition);
 }
 .doctorCard:is(:hover, :focus-within) .cardTitle { 
-  color: var(--deep-golden-orange); 
+  color: var(--vibrant-coral); 
 }
 .doctorCard .cardSubtitle {
-  color: var(--deep-golden-orange);
+  color: var(--vibrant-coral);
   margin-block: 10px 15px;
 }
 .doctorCard .cardSocialList {
@@ -31,15 +31,15 @@
   gap: 10px;
 }
 .doctorCard .cardSocialLink {
-  background-color: var(--golden-cream);
-  color: var(--deep-golden-orange);
+  background-color: var(--pale-aqua);
+  color: var(--vibrant-coral);
   font-size: 16px;
   padding: 12px;
   border-radius: 50%;
   transition: var(--transition);
 }
 .doctorCard .cardSocialLink:is(:hover, :focus) {
-  background-color: var(--deep-golden-orange);
+  background-color: var(--vibrant-coral);
   color: var(--white);
 }
 .hasScrollbar {
@@ -63,11 +63,11 @@
   height: 10px; 
 }
 .hasScrollbar::-webkit-scrollbar-track {
-  background-color: var(--light-peach-beige);
+  background-color: var(--light-seafoam);
   border-radius: var(--radius-4);
 }
 .hasScrollbar::-webkit-scrollbar-thumb {
-  background-color: var(--deep-golden-orange);
+  background-color: var(--vibrant-coral);
   border-radius: var(--radius-4);
 }
 .hasScrollbar::-webkit-scrollbar-button { 

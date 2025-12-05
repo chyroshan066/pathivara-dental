@@ -67,7 +67,7 @@ const TestimonialModal = memo(({
                 style={{
                     backgroundColor: 'var(--white)',
                     borderRadius: 'var(--radius-6)',
-                    border: '1px solid var(--light-peach-beige)'
+                    border: '1px solid var(--light-seafoam)'
                 }}
                 onClick={(e) => e.stopPropagation()}
             >
@@ -81,20 +81,20 @@ const TestimonialModal = memo(({
                         width: '40px',
                         height: '40px',
                         borderRadius: '50%',
-                        backgroundColor: 'var(--light-peach-beige)',
-                        border: '1px solid var(--warm-orange-taupe)'
+                        backgroundColor: 'var(--light-seafoam)',
+                        border: '1px solid var(--teal-gray)'
                     }}
                     onMouseOver={(e) => {
-                        e.currentTarget.style.backgroundColor = 'var(--warm-orange-taupe)';
+                        e.currentTarget.style.backgroundColor = 'var(--teal-gray)';
                     }}
                     onMouseOut={(e) => {
-                        e.currentTarget.style.backgroundColor = 'var(--light-peach-beige)';
+                        e.currentTarget.style.backgroundColor = 'var(--light-seafoam)';
                     }}
                     aria-label="Close modal"
                 >
                     <XIcon
                         size={20}
-                        style={{ color: 'var(--warm-jet)' }}
+                        style={{ color: 'var(--charcoal-blue)' }}
                     />
                 </button>
 
@@ -150,7 +150,7 @@ const TestimonialModal = memo(({
 
                                 <blockquote
                                     style={{
-                                        color: 'var(--warm-jet)',
+                                        color: 'var(--charcoal-blue)',
                                         fontSize: 'var(--fontSize-6)',
                                         fontWeight: 'var(--weight-500)',
                                         fontStyle: 'italic',
@@ -163,14 +163,14 @@ const TestimonialModal = memo(({
                             </div>
                             <div
                                 className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-6"
-                                style={{ borderTop: '1px solid var(--light-peach-beige)' }}
+                                style={{ borderTop: '1px solid var(--light-seafoam)' }}
                             >
                                 <div className="min-w-0">
                                     <h3
                                         className="font-semibold mb-1 truncate"
                                         style={{
                                             fontSize: 'var(--fontSize-4)',
-                                            color: 'var(--deep-golden-orange)'
+                                            color: 'var(--vibrant-coral)'
                                         }}
                                     >
                                         {testimonial.name}
@@ -178,7 +178,7 @@ const TestimonialModal = memo(({
                                     <p
                                         style={{
                                             fontSize: 'var(--fontSize-7)',
-                                            color: 'var(--warm-orange-taupe)',
+                                            color: 'var(--teal-gray)',
                                             opacity: '0.8'
                                         }}
                                     >
@@ -288,7 +288,7 @@ export const TestimonialSlider = memo(() => {
                         <p
                             className="section-text"
                             style={{
-                                color: 'var(--warm-orange-taupe)',
+                                color: 'var(--teal-gray)',
                                 fontSize: 'var(--fontSize-6)',
                                 lineHeight: '1.7',
                                 maxWidth: '600px',
@@ -410,7 +410,7 @@ export const TestimonialSlider = memo(() => {
                                                         onClick={() => openModal(testimonial)}
                                                         className="transition-colors duration-200 cursor-pointer -mt-5"
                                                         style={{
-                                                            color: 'var(--deep-golden-orange)',
+                                                            color: 'var(--vibrant-coral)',
                                                             fontSize: 'var(--fontSize-7)',
                                                             fontWeight: 'var(--weight-600)',
                                                             marginBlockEnd: '10px',
@@ -421,7 +421,7 @@ export const TestimonialSlider = memo(() => {
                                                             e.currentTarget.style.color = 'var(--dark-brown-1)';
                                                         }}
                                                         onMouseOut={(e) => {
-                                                            e.currentTarget.style.color = 'var(--deep-golden-orange)';
+                                                            e.currentTarget.style.color = 'var(--vibrant-coral)';
                                                         }}
                                                     >
                                                         Read More
@@ -457,7 +457,7 @@ export const TestimonialSlider = memo(() => {
                                 top: '50%',
                                 transform: 'translateY(-50%)',
                                 backgroundColor: 'var(--white)',
-                                color: 'var(--warm-orange-taupe)',
+                                color: 'var(--teal-gray)',
                                 borderRadius: '50%',
                                 padding: '12px',
                                 boxShadow: 'var(--shadow-2)',
@@ -468,11 +468,11 @@ export const TestimonialSlider = memo(() => {
                             }}
                             onMouseOver={(e) => {
                                 e.currentTarget.style.backgroundColor = 'var(--lavender-mist)';
-                                e.currentTarget.style.color = 'var(--deep-golden-orange)';
+                                e.currentTarget.style.color = 'var(--vibrant-coral)';
                             }}
                             onMouseOut={(e) => {
                                 e.currentTarget.style.backgroundColor = 'var(--white)';
-                                e.currentTarget.style.color = 'var(--warm-orange-taupe)';
+                                e.currentTarget.style.color = 'var(--teal-gray)';
                             }}
                             aria-label="Previous testimonial"
                         >
@@ -487,7 +487,7 @@ export const TestimonialSlider = memo(() => {
                                 top: '50%',
                                 transform: 'translateY(-50%)',
                                 backgroundColor: 'var(--white)',
-                                color: 'var(--warm-orange-taupe)',
+                                color: 'var(--teal-gray)',
                                 borderRadius: '50%',
                                 padding: '12px',
                                 boxShadow: 'var(--shadow-2)',
@@ -498,11 +498,11 @@ export const TestimonialSlider = memo(() => {
                             }}
                             onMouseOver={(e) => {
                                 e.currentTarget.style.backgroundColor = 'var(--lavender-mist)';
-                                e.currentTarget.style.color = 'var(--deep-golden-orange)';
+                                e.currentTarget.style.color = 'var(--vibrant-coral)';
                             }}
                             onMouseOut={(e) => {
                                 e.currentTarget.style.backgroundColor = 'var(--white)';
-                                e.currentTarget.style.color = 'var(--warm-orange-taupe)';
+                                e.currentTarget.style.color = 'var(--teal-gray)';
                             }}
                             aria-label="Next testimonial"
                         >
@@ -523,19 +523,19 @@ export const TestimonialSlider = memo(() => {
                                     width: index === currentSlide ? '32px' : '12px',
                                     height: '12px',
                                     borderRadius: 'var(--radius-6)',
-                                    backgroundColor: index === currentSlide ? 'var(--deep-golden-orange)' : 'var(--light-peach-beige)',
+                                    backgroundColor: index === currentSlide ? 'var(--vibrant-coral)' : 'var(--light-seafoam)',
                                     transition: 'var(--transition)',
                                     border: 'none',
                                     cursor: 'pointer'
                                 }}
                                 onMouseOver={(e) => {
                                     if (index !== currentSlide) {
-                                        e.currentTarget.style.backgroundColor = 'var(--warm-orange-taupe)';
+                                        e.currentTarget.style.backgroundColor = 'var(--teal-gray)';
                                     }
                                 }}
                                 onMouseOut={(e) => {
                                     if (index !== currentSlide) {
-                                        e.currentTarget.style.backgroundColor = 'var(--light-peach-beige)';
+                                        e.currentTarget.style.backgroundColor = 'var(--light-seafoam)';
                                     }
                                 }}
                                 aria-label={`Go to testimonial ${index + 1}`}
