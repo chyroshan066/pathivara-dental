@@ -15,7 +15,7 @@ export const ContactColumn = memo(() => (
                 target="_blank"
             >
                 <address className={styles.itemText}>
-                    Opposite to Hotel <br />
+                    Opposite to Hotel Hicola Heritage <br />
                     Birtamode, Jhapa, Nepal
                 </address>
             </a>
