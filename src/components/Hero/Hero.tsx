@@ -8,17 +8,10 @@ import { SocialIcon } from "../utility/SocialIcon/SocialIcon";
 import { HeroSlider } from "../HeroSlider";
 
 const HEROSLIDES: string[] = [
-    // "/images/hero-banner.webp",
-    // "/images/media/images/g1.webp",
-    // "/images/media/images/g2.webp",
-    // "/images/media/images/g3.webp",
-    // "/images/media/images/g5.webp",
-    // "/images/cta-banner.webp",
-    // "/images/media/images/g4.webp",
-    // "/images/media/images/g9.webp",
-    // "/images/media/images/g6.webp",
-    // "/images/media/images/g10.webp",
-    // "/images/media/images/g11.webp",
+    "/images/media/images/g11.webp",
+    "/images/media/images/g16.webp",
+    "/images/media/images/g8.webp",
+    "/images/media/images/g15.webp",
 ];
 
 export const Hero = memo(() => (
