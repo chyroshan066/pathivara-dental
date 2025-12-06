@@ -6,7 +6,7 @@ import { TitleHeader } from "../utility/TitleHeader";
 import styles from "./Service.module.css";
 
 const ServiceCard = memo(({
-    imgSrc, name, text, idStr, href
+    imgSrc, name, text, idStr
 }: Services) => (
     <li id={idStr}>
         <div className={styles.serviceCard}>

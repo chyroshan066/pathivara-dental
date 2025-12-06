@@ -286,7 +286,7 @@ export const Maps: React.FC = () => {
                 }
             };
         }
-    }, [isLoaded]);
+    }, [isLoaded, clinicLocations]);
 
     return (
         <section className="section">
