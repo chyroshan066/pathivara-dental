@@ -60,7 +60,7 @@ export const Footer = memo(() => (
                         Pathivara Dental
                     </Link>
                     <p className={styles.footerText}>
-                        Your trusted <strong>dental clinic in Birtamode</strong> for <strong>dental implants</strong>, <strong>braces</strong>, <strong>cosmetic dentistry</strong>, <strong>root canal</strong>, <strong>teeth whitening</strong>, <strong>orthodontics</strong>, and <strong>family dental care</strong> at an affordable price. Visit <strong>Pradhan Dental Nepal</strong> for healthy smiles.
+                        Your trusted <strong>dental clinic in Birtamode and Dhulabari</strong> for <strong>dental implants</strong>, <strong>braces</strong>, <strong>cosmetic dentistry</strong>, <strong>root canal</strong>, <strong>teeth whitening</strong>, <strong>orthodontics</strong>, and <strong>family dental care</strong> at an affordable price. Visit <strong>Pathivara Dental Nepal</strong> for healthy smiles.
                     </p>
 
                     <div className={styles.schedule}>
@@ -69,7 +69,7 @@ export const Footer = memo(() => (
                         </div>
                         <span className={styles.span}>
                             Daily:<br />
-                            9:00 AM - 5:00 PM
+                            9:00 AM - 6:00 PM
                         </span>
                     </div>
 

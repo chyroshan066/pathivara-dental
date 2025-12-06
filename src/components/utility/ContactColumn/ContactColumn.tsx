@@ -15,8 +15,24 @@ export const ContactColumn = memo(() => (
                 target="_blank"
             >
                 <address className={styles.itemText}>
-                    Opposite to Hotel Hicola <br />
+                    Opposite to Hotel <br />
                     Birtamode, Jhapa, Nepal
+                </address>
+            </a>
+        </li>
+
+        <li className={styles.footerItem}>
+            <div className={styles.itemIcon}>
+                <IonIcon name="location-outline" />
+            </div>
+            <a
+                href="https://www.google.com/maps/place/Pathibhara+apollo+dental+clinic/@26.6607785,88.0955061,16.1z/data=!4m6!3m5!1s0x39e5b3a2262efc63:0x2dcb5a9e7a97b4b!8m2!3d26.6602595!4d88.1007196!16s%2Fg%2F11rls4n6sf?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
+                className="footer-link"
+                target="_blank"
+            >
+                <address className={styles.itemText}>
+                    Near Atithi Sadan <br />
+                    Dhulabari, Jhapa, Nepal
                 </address>
             </a>
         </li>

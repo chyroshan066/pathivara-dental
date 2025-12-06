@@ -5,7 +5,7 @@ import styles from "./CallToAction.module.css";
 
 export const CallToAction = memo(() => (
     <section
-        className={`section mt-40 ${styles.cta}`}
+        className={`section ${styles.cta}`}
         aria-label="cta"
     >
         <div className={`custom-container ${styles.customContainer}`}>

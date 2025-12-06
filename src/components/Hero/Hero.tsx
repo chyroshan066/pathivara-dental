@@ -30,7 +30,7 @@ export const Hero = memo(() => (
     >
         <div className={`custom-container ${styles.customContainer}`}>
             <div className={styles.heroContent}>
-                <p className="section-subtitle">Welcome To Pathivara Dental Care & Implant Centre</p>
+                <p className="section-subtitle">Welcome To Dental Multispeciality Center</p>
                 <h1 className={`h25 ${styles.heroTitle}`}>We Are The Best Dental Service Provider In Town</h1>
                 <p className="text-[var(--warm-beige_50] mb-10 leading-[1.45] text-[length:var(--fontSize-6)]">
                     Transforming smiles with precision, care, and cutting-edge technology. Experience dentistry that exceeds expectations.

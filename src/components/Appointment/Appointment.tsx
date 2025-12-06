@@ -136,8 +136,8 @@ export const Appointment = memo(() => {
                     >
                         <h2 className="headline-1 text-center">Book Appointment</h2>
                         <p className={`text-center ${styles.formText}`}>
-                            Booking request <a href="tel:+9779842051732" className={styles.link}>9842051732 </a>
-                            or fill out the appointment form
+                            Booking request <a href="tel:+97723536424" className={styles.link}>023-536424 </a>
+                            or fill out the appointment form (Birtamode)
                         </p>
                         <div className={styles.inputWrapper}>
 
@@ -223,7 +223,7 @@ export const Appointment = memo(() => {
                                         </option>
                                     ))}
 
-                                    {[...Array(5)].map((_, index) => (
+                                    {[...Array(6)].map((_, index) => (
                                         <option
                                             key={index}
                                             value={`${index < 9 ? `0${1 + index}` : 1 + index}:00pm`}
@@ -268,21 +268,25 @@ export const Appointment = memo(() => {
                         <h2 className={`headline-1 text-center ${styles.headline1}`}>Contact Us</h2>
                         <p className={`contact-label ${styles.contactLabel}`}>Booking Request</p>
                         <a
-                            href="tel:+9779842051732"
+                            href="tel:+97723536424"
                             className="body-1 contact-number hover-underline"
                         >
-                            9842051732
+                            023-536424
                         </a>
                         <div className={`separator ${styles.separator}`}></div>
                         <p className={`contact-label ${styles.contactLabel}`}>Location</p>
                         <address className={`body-4 ${styles.body4}`}>
-                            Near Aduwa Khola Bridge,  <br />
+                            Opposite to Hotel Hicola,  <br />
                             Birtamode, Nepal
+                        </address>
+                        <address className={`body-4 ${styles.body4}`}>
+                            Near Atithi Sadan,  <br />
+                            Dhulabari, Nepal
                         </address>
                         <p className={`contact-label ${styles.contactLabel}`}>Daily</p>
                         <p className={`body-4 ${styles.body4}`}>
                             {/* Sunday to Friday <br /> */}
-                            9.00 am - 5.00pm
+                            9.00 am - 6.00pm
                         </p>
                     </div>
                 </div>

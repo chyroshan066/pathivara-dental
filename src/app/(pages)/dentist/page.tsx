@@ -5,7 +5,7 @@ const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
 
 export const metadata: Metadata = {
     title: "Meet Dr. Heramb Kumar - Lead Dentist at Pathivara Dental Care and Implant Centre",
-    description: "Learn about Dr. Heramb Kumar, lead dentist at Pathivara Dental Care and Implant Centre in Birtamode, Nepal. With 8+ years of experience in advanced dental care, specializing in dental implants, cosmetic dentistry, and comprehensive oral health treatments.",
+    description: "Learn about Dr. Heramb Kumar, lead dentist at Pathivara Dental Care and Implant Centre in Birtamode, Nepal. With 20+ years of experience in advanced dental care, specializing in dental implants, cosmetic dentistry, and comprehensive oral health treatments.",
     keywords: [
         "Dr. Heramb Kumar dentist",
         "lead dentist Pathivara Dental",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Meet Dr. Heramb Kumar - Lead Dentist at Pathivara Dental Care and Implant Centre",
-        description: "Discover the expertise and qualifications of Dr. Heramb Kumar, our lead dentist with 8+ years of experience in advanced dental care, serving patients in Birtamode and surrounding areas.",
+        description: "Discover the expertise and qualifications of Dr. Heramb Kumar, our lead dentist with 20+ years of experience in advanced dental care, serving patients in Birtamode and surrounding areas.",
         type: "profile",
         locale: "en_US",
         url: `${baseURL}/dentist`,
