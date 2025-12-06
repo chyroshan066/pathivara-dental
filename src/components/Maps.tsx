@@ -404,13 +404,16 @@ export const Maps: React.FC = () => {
                             }}>
                                 📍 {location.address}
                             </p>
-                            <p style={{
-                                color: 'var(--bright-teal)',
-                                fontSize: '1.4rem',
-                                fontWeight: '600'
-                            }}>
+                            <a
+                                href={`tel:+977${location.phone.replace(/-/g, '')}`}
+                                style={{
+                                    color: 'var(--bright-teal)',
+                                    fontSize: '1.4rem',
+                                    fontWeight: '600'
+                                }}
+                            >
                                 📞 {location.phone}
-                            </p>
+                            </a>
                         </div>
                     ))}
                 </div>
