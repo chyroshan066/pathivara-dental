@@ -135,9 +135,13 @@ export const Appointment = memo(() => {
                         noValidate
                     >
                         <h2 className="headline-1 text-center">Book Appointment</h2>
-                        <p className={`text-center ${styles.formText}`}>
+                        <p className={`text-center`}>
                             Booking request <a href="tel:+97723536424" className={styles.link}>023-536424 </a>
                             or fill out the appointment form (Birtamode)
+                        </p>
+                        <p className={`text-center ${styles.formText}`}>
+                            Booking request <a href="tel:+97723564142" className={styles.link}>023-564142 </a>
+                            or fill out the appointment form (Dhulabari)
                         </p>
                         <div className={styles.inputWrapper}>
 
@@ -272,6 +276,12 @@ export const Appointment = memo(() => {
                             className="body-1 contact-number hover-underline"
                         >
                             023-536424
+                        </a>
+                        <a
+                            href="tel:+97723564142"
+                            className="body-1 contact-number hover-underline"
+                        >
+                            023-564142
                         </a>
                         <div className={`separator ${styles.separator}`}></div>
                         <p className={`contact-label ${styles.contactLabel}`}>Location</p>

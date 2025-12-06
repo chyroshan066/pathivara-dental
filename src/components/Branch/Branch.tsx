@@ -25,7 +25,7 @@ const BRANCHES: BranchData[] = [
     {
         name: "Pathivara Apollo Dental Clinic - Dhulabari Branch",
         location: "Near Atithi Sadan, Dhulabari, Jhapa, Nepal",
-        phone: "023-XXXXXX",
+        phone: "023-564142",
         email: "herambjhabpkihs@gmail.com",
         timing: "9:00 AM - 6:00 PM (Daily)",
         mapLink: "https://www.google.com/maps/place/Pathibhara+apollo+dental+clinic/@26.6607785,88.0955061,16.1z/data=!4m6!3m5!1s0x39e5b3a2262efc63:0x2dcb5a9e7a97b4b!8m2!3d26.6602595!4d88.1007196!16s%2Fg%2F11rls4n6sf?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
