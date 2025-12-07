@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     authors: [{ name: "Pathivara Dental" }],
     creator: "Pathivara Dental",
     publisher: "Pathivara Dental",
-    metadataBase: new URL("https://pathivaradentalcare.com.np"),
+    metadataBase: new URL("https://www.pathivaradentalcare.com.np"),
     alternates: {
         canonical: "/dentist",
     },
