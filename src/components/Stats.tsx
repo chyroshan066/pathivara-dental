@@ -15,8 +15,8 @@ const STATS: Stats[] = [
         description: "Same Day Service",
     },
     {
-        title: "Lab Reports",
-        description: "Quick & Accurate",
+        title: "Best Quality Root Canals",
+        description: "Quick & Accurate Dental Procedures",
     },
 ];
 
