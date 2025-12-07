@@ -29,7 +29,15 @@ const BRANCHES: BranchData[] = [
         email: "herambjhabpkihs@gmail.com",
         timing: "9:00 AM - 6:00 PM (Daily)",
         mapLink: "https://www.google.com/maps/place/Pathibhara+apollo+dental+clinic/@26.6607785,88.0955061,16.1z/data=!4m6!3m5!1s0x39e5b3a2262efc63:0x2dcb5a9e7a97b4b!8m2!3d26.6602595!4d88.1007196!16s%2Fg%2F11rls4n6sf?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
-    }
+    },
+    {
+        name: "New Pathivara Dental Care & Implant Centre - Birtamode Branch",
+        location: "Near Atithi Sadan, Birtamode, Jhapa, Nepal",
+        phone: "9842051732",
+        email: "herambjhabpkihs@gmail.com",
+        timing: "9:00 AM - 6:00 PM (Daily)",
+        mapLink: "https://www.google.com/maps/place/Atithi+Sadan,+Birtamod/@26.6445546,87.9888598,19.1z/data=!4m14!1m7!3m6!1s0x39e5ba606ebb7741:0x4b8fc5e3d62f98eb!2sPathivara+Dental+Care+%26+Implant+Center+Pvt.+Ltd!8m2!3d26.6431066!4d87.9931475!16s%2Fg%2F11c60g7c3d!3m5!1s0x39e5bbf30e18d899:0x6d7b00d815205f1e!8m2!3d26.6447428!4d87.9889347!16s%2Fg%2F11spdywy4y?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
+    },
 ];
 
 const BranchCard = memo(({

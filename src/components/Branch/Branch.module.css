@@ -132,6 +132,13 @@
     font-size: 2rem;
 }
 
+@media (max-width: 575px) {
+    .cardFooter {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+}
+
 @media (min-width: 768px) {
     .branchGrid {
         grid-template-columns: repeat(2, 1fr);
