@@ -10,11 +10,6 @@ interface Facility {
     description: string;
 }
 
-interface Stats {
-    title: string;
-    description: string;
-}
-
 const FACILITIES: Facility[] = [
     {
         icon: "medical-outline",
@@ -26,35 +21,11 @@ const FACILITIES: Facility[] = [
         title: "Dental Lab",
         description: "In-house dental laboratory ensuring quick turnaround for crowns, bridges, dentures and other prosthetic work."
     },
-    // {
-    //     icon: "storefront-outline",
-    //     title: "Pharmacy",
-    //     description: "On-site pharmacy stocked with essential dental medications and post-treatment care products for your convenience."
-    // },
     {
         icon: "analytics-outline",
-        title: "Pathology",
-        description: "Advanced pathological services for comprehensive oral health assessment and early detection of dental conditions."
+        title: "Orthodontics & Implant Centre",
+        description: "Advanced surgical and root canal centre."
     }
-];
-
-const STATS: Stats[] = [
-    {
-        title: "Digital X-Ray",
-        description: "90% Less Radiation",
-    },
-    {
-        title: "In-House Lab",
-        description: "Same Day Service",
-    },
-    // {
-    //     title: "Full Pharmacy",
-    //     description: "All Medications Available",
-    // },
-    {
-        title: "Lab Reports",
-        description: "Quick & Accurate",
-    },
 ];
 
 export const Facility = memo(() => {
@@ -148,7 +119,7 @@ export const Facility = memo(() => {
                 </div>
 
                 {/* Stats section */}
-                <div style={{
+                {/* <div style={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
                     gap: '30px',
@@ -176,7 +147,7 @@ export const Facility = memo(() => {
                         </div>
                     ))}
 
-                </div>
+                </div> */}
 
             </div>
         </section>

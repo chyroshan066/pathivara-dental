@@ -279,21 +279,19 @@ export const Appointment = memo(() => {
                         >
                             023-536424
                         </a>
-                        <a
-                            href="tel:+97723564142"
-                            className="body-1 contact-number hover-underline"
-                        >
-                            023-564142
-                        </a>
                         <div className={`separator ${styles.separator}`}></div>
                         <p className={`contact-label ${styles.contactLabel}`}>Location</p>
                         <address className={`body-4 ${styles.body4}`}>
                             Opposite to Hotel Hicola Heritage,  <br />
-                            Birtamode, Nepal
+                            Birtamode-05, Nepal
                         </address>
                         <address className={`body-4 ${styles.body4}`}>
                             Near Atithi Sadan,  <br />
-                            Dhulabari, Nepal
+                            Birtamode-01, Nepal
+                        </address>
+                        <address className={`body-4 ${styles.body4}`}>
+                            20m north to Asian Highway,  <br />
+                            Mechinagar-10, Dhulabari
                         </address>
                         <p className={`contact-label ${styles.contactLabel}`}>Daily</p>
                         <p className={`body-4 ${styles.body4}`}>

@@ -172,7 +172,7 @@ export const SERVICES: Services[] = [
     {
         id: 22,
         imgSrc: "/images/service-icons/service-icon-34.webp",
-        name: "Apicetomny",
+        name: "Apicetomy",
         text: "Surgical removal of tooth root tip and infected tissue when root canal fails.",
         href: "/#apicetomy",
         idStr: "apicetomy",

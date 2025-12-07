@@ -9,6 +9,7 @@ import { Hero } from "@/components/Hero/Hero";
 import { Maps } from "@/components/Maps";
 import { Review } from "@/components/Review";
 import { Service } from "@/components/Service/Service";
+import { Stats } from "@/components/Stats";
 // import { TestimonialSlider } from "@/components/Testimonial/Testimonial";
 
 export default function Home() {
@@ -16,15 +17,16 @@ export default function Home() {
     <>
       <main>
         <article>
+          <Stats />
+          <Service />
           <Hero />
           <Appointment />
           {/* <Intro /> */}
-          <Service />
           <Facility />
           <About />
           {/* <Dentist /> */}
           <Branch />
-          <CallToAction />
+          {/* <CallToAction /> */}
           {/* <TestimonialSlider /> */}
           <Review />
           <Maps />
