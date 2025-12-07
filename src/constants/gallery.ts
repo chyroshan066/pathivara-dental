@@ -19,15 +19,15 @@ export const MEDIA_ITEMS: MediaItem[] = [
     {
         id: 3,
         src: "/images/media/images/g16.webp",
-        alt: "Dr. Heramb Kumar Honored at Thakurgunj Dental Health Camp",
-        title: "Dr. Heramb Kumar Honored at Thakurgunj Dental Health Camp",
+        alt: "Dr. Heramb Kumar Honored at Tarachand Dhanuka Academy Dental Health Camp",
+        title: "Dr. Heramb Kumar Honored at Tarachand Dhanuka Academy Dental Health Camp",
         type: "image"
     },
     {
         id: 4,
         src: "/images/media/images/g17.webp",
-        alt: "Dr. Heramb Kumar Honored at Thakurgunj Dental Health Camp",
-        title: "Dr. Heramb Kumar Honored at Thakurgunj Dental Health Camp",
+        alt: "Dr. Heramb Kumar Honored at Tarachand Dhanuka Academy Dental Health Camp",
+        title: "Dr. Heramb Kumar Honored at Tarachand Dhanuka Academy Dental Health Camp",
         type: "image"
     },
     {
@@ -54,8 +54,8 @@ export const MEDIA_ITEMS: MediaItem[] = [
     {
         id: 8,
         src: "/images/media/images/g15.webp",
-        alt: "Pathivara Dental Care Team at Thakurgunj Dental Health Camp",
-        title: "Pathivara Dental Care Team at Thakurgunj Dental Health Camp",
+        alt: "Pathivara Dental Care Team at Tarachand Dhanuka Academy Dental Health Camp",
+        title: "Pathivara Dental Care Team at Tarachand Dhanuka Academy Dental Health Camp",
         type: "image"
     },
     {
@@ -81,69 +81,62 @@ export const MEDIA_ITEMS: MediaItem[] = [
     },
     {
         id: 12,
-        src: "/images/media/images/g4.webp",
-        alt: "Our Dental Team at Pathivara Dental Care",
-        title: "Our Dental Team at Pathivara Dental Care",
-        type: "image"
-    },
-    {
-        id: 13,
         src: "/images/media/videos/v2.webm",
         alt: "Virtual Tour of Pathivara Dental Care & Implant Centre",
         title: "Virtual Tour of Pathivara Dental Care & Implant Centre",
         type: "video",
     },
     {
-        id: 14,
+        id: 13,
         src: "/images/media/images/g2.webp",
         alt: "Pediatric Dental Treatment in Progress",
         title: "Pediatric Dental Treatment in Progress",
         type: "image"
     },
     {
-        id: 15,
+        id: 14,
         src: "/images/media/images/g3.webp",
         alt: "Free Dental Camp at Birta Global School, Birtamode",
         title: "Free Dental Camp at Birta Global School, Birtamode",
         type: "image"
     },
     {
-        id: 16,
+        id: 15,
         src: "/images/media/images/g5.webp",
         alt: "Free Dental Checkup Camp for Class 5 Students",
         title: "Free Dental Checkup Camp for Class 5 Students",
         type: "image"
     },
     {
-        id: 17,
+        id: 16,
         src: "/images/media/images/g6.webp",
         alt: "Mandibular Fracture Management with Internal Fixation",
         title: "Mandibular Fracture Management with Internal Fixation",
         type: "image"
     },
     {
-        id: 18,
+        id: 17,
         src: "/images/media/images/g7.webp",
         alt: "Mandibular Fracture Surgery: Expert Team in Action",
         title: "Mandibular Fracture Surgery: Expert Team in Action",
         type: "image"
     },
     {
-        id: 19,
+        id: 18,
         src: "/images/media/images/g12.webp",
         alt: "Students Receive Dental Consultation at East Horizon School Health Camp",
         title: "Students Receive Dental Consultation at East Horizon School Health Camp",
         type: "image"
     },
     {
-        id: 20,
+        id: 19,
         src: "/images/media/images/g13.webp",
         alt: "Students Receive Dental Consultation at East Horizon School Health Camp",
         title: "Students Receive Dental Consultation at East Horizon School Health Camp",
         type: "image"
     },
     {
-        id: 21,
+        id: 20,
         src: "/images/media/images/g14.webp",
         alt: "Students Receive Dental Consultation at East Horizon School Health Camp",
         title: "Students Receive Dental Consultation at East Horizon School Health Camp",
