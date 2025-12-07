@@ -52,7 +52,7 @@ export const SERVICES: Services[] = [
     {
         id: 7,
         imgSrc: "/images/service-icons/service-icon-8.webp",
-        name: "RPD",
+        name: "CD, RPD",
         text: "Custom dentures and bridges to replace missing teeth and restore function.",
         href: "/#cd-rpd",
         idStr: "cd-rpd",
