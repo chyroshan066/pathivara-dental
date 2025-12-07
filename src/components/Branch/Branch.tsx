@@ -16,7 +16,7 @@ interface BranchData {
 const BRANCHES: BranchData[] = [
     {
         name: "Pathivara Dental Care & Implant Centre - Birtamode Branch",
-        location: "Opposite to Hotel Hicola, Birtamode, Jhapa, Nepal",
+        location: "Opposite to Hotel Hicola Heritage, Birtamode-05, Jhapa, Nepal",
         phone: "023-536424",
         email: "herambjhabpkihs@gmail.com",
         timing: "9:00 AM - 6:00 PM (Daily)",
@@ -24,7 +24,7 @@ const BRANCHES: BranchData[] = [
     },
     {
         name: "Pathivara Apollo Dental Clinic - Dhulabari Branch",
-        location: "Near Atithi Sadan, Dhulabari, Jhapa, Nepal",
+        location: "20m north to Asian Highway,, Mechinagar-10, Jhapa, Nepal",
         phone: "023-564142",
         email: "herambjhabpkihs@gmail.com",
         timing: "9:00 AM - 6:00 PM (Daily)",

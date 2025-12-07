@@ -16,7 +16,7 @@ export const ContactColumn = memo(() => (
             >
                 <address className={styles.itemText}>
                     Opposite to Hotel Hicola Heritage <br />
-                    Birtamode, Jhapa, Nepal
+                    Birtamode-05, Jhapa, Nepal
                 </address>
             </a>
         </li>
@@ -31,8 +31,8 @@ export const ContactColumn = memo(() => (
                 target="_blank"
             >
                 <address className={styles.itemText}>
-                    Near Atithi Sadan <br />
-                    Dhulabari, Jhapa, Nepal
+                    20m north to Asian Highway <br />
+                    Mechinagar-10, Jhapa, Nepal
                 </address>
             </a>
         </li>
