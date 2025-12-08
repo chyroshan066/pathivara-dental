@@ -10,7 +10,7 @@ const TRAININGS: string[] = [
 ];
 
 const ABOUTTEXT: string[] = [
-    "Dr. Heramb Kumar is a highly respected dental surgeon who has been serving the Mechi Zone with dedication since 2006. He began his dental journey after securing the top position in the entrance examination and earning a scholarship at B.P. Koirala Institute of Health Sciences (BPKIHS), Dharan in 2001 AD.",
+    "Dr. Heramb Kumar is a highly respected dental surgeon with 20+ years of experience, who has been serving the Mechi Zone with dedication since 2006. He began his dental journey after securing the top position in the entrance examination and earning a scholarship at B.P. Koirala Institute of Health Sciences (BPKIHS), Dharan in 2001 AD.",
     "He completed his Bachelor of Dental Surgery (BDS) in 2006 and successfully passed the Nepal Medical Council (NMC) licensing examination in 2007. Dr. Kumar then worked as an Inter Dental Surgeon at Mechi Zonal Hospital, Bhadrapur, where he gained valuable clinical experience and built a strong foundation for his professional reputation.",
     "With nearly two decades of continuous service, Dr. Kumar has been committed to improving oral health in the community. He has organized numerous free dental check-ups, awareness programs, and free extraction camps, contributing significantly to public dental education and accessibility.",
     "To stay updated with advancements in dentistry, he has participated in several professional development trainings, including orthodontic workshops, endodontic workshops in New Delhi, India, and Dental Implant hands-on training (Implant Dentium)",
@@ -141,28 +141,6 @@ export const Dentist = memo(() => {
                                     }}>
                                     Senior Dental Surgeon
                                 </h3>
-
-                                {/* <div
-                                    className={styles.dentistQualificationBadge}
-                                    style={{
-                                        background: 'linear-gradient(135deg, var(--pale-aqua), #e8f5f0)',
-                                        border: '2px solid var(--bright-teal)',
-                                        borderRadius: '15px',
-                                        padding: '20px 30px',
-                                        marginBottom: '25px',
-                                        boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)'
-                                    }}>
-                                    <p
-                                        style={{
-                                            color: 'var(--darkest-teal)',
-                                            fontWeight: '800',
-                                            fontSize: '1.6rem',
-                                            letterSpacing: '1px'
-                                        }}
-                                    >
-                                        Bachelor of Dental Surgery (BDS)
-                                    </p>
-                                </div> */}
 
                                 <div
                                     className={styles.dentistInstitutionInfo}
