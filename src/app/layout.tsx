@@ -7,6 +7,7 @@ import { Header } from "@/components/Header/Header";
 import { BackToTop } from "@/components/BackToTop/BackToTop";
 import { Footer } from "@/components/Footer/Footer";
 import { dentalServicesStructuredData, dentalClinicStructuredData, dentalSpecialtiesStructuredData } from "@/constants";
+import { ActionBtn } from "@/components/ActionBtn/ActionBtn";
 
 const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
 
@@ -220,7 +221,21 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <ActionBtn
+          ionIconLink="/#contact"
+          ionIconName="calendar-outline"
+          style={{ backgroundColor: "var(--bright-teal)" }}
+          className="bottom-[120px]! md:bottom-[180px]!"
+        />
+        <ActionBtn
+          ionIconLink="https://wa.me/9779803365179"
+          ionIconName="logo-whatsapp"
+          style={{ backgroundColor: "#46c754" }}
+          className="bottom-[70px]! md:bottom-[130px]!"
+          target="_blank"
+        />
         <BackToTop />
+
         <IonicScripts />
         <AnalyticsWrapper />
       </body>

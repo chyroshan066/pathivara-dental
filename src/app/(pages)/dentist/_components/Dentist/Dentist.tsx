@@ -145,7 +145,7 @@ export const Dentist = memo(() => {
                                         marginTop: '30px',
                                         color: 'var(--deep-teal)'
                                     }}>
-                                    Dr. Mukesh Kumar Shah
+                                    Dr. Heramb Kumar
                                 </h2>
                                 <h3
                                     className={styles.dentistTitle}
@@ -212,7 +212,7 @@ export const Dentist = memo(() => {
                                             fontWeight: '500',
                                             color: 'var(--soft-coral)'
                                         }}>
-                                            NMC No: 20945
+                                            NMC No: 7178
                                         </span>
                                     </p>
                                 </div>
@@ -645,7 +645,7 @@ export const Dentist = memo(() => {
                             margin: '0 auto 50px',
                             lineHeight: '1.7'
                         }}>
-                        Experience professional dental care with Dr. Mukesh Shah. Book your consultation and take the first step towards optimal oral health.
+                        Experience professional dental care with Dr. Heramb Kumar. Book your consultation and take the first step towards optimal oral health.
                     </p>
                     <Link
                         href="/#contact"

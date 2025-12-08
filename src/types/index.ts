@@ -2,7 +2,7 @@ interface Name {
     name: string;
 }
 
-interface Href {
+export interface Href {
     href: string;
 }
 
@@ -22,7 +22,11 @@ interface Alt {
     alt: string;
 }
 
-interface IonIcon {
+export interface ClassName {
+    className: string;
+}
+
+export interface IconType {
     ionIconName: string;
     ionIconLink: string;
 }
@@ -38,15 +42,12 @@ export interface Services extends Name, ImgSrc, Text, Href {
 }
 
 export interface DentistType extends Name, ImgSrc {
-    ionIcon?: IonIcon[];
+    ionIcon?: IconType[];
     position: string;
 }
 
 export interface NavLink extends Name, Href {}
-
-export interface SocialLinkType extends NavLink {
-    className: string;
-}
+export interface SocialLinkType extends NavLink, ClassName {}
 
 export interface Testimonial extends Name, Id, Text {
     rating: number;

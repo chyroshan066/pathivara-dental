@@ -1,0 +1,15 @@
+.backTopBtn {
+  position: fixed;
+  right: 20px;
+  font-size: 18px;
+  color: var(--white);
+  padding: 14px;
+  border-radius: 50%;
+  transition: var(--transition);
+}
+
+@media (min-width: 768px) {
+  .backTopBtn {
+    right: 50px;
+  }
+}

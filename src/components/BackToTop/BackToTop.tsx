@@ -3,6 +3,7 @@
 import { memo, useState, useEffect } from "react";
 import { IonIcon } from "../utility/IonIcon";
 import styles from "./BackToTop.module.css";
+import Link from "next/link";
 
 export const BackToTop = memo(() => {
     const [isActive, setIsActive] = useState(false);

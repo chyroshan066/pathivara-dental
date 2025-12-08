@@ -24,7 +24,7 @@ const BRANCHES: BranchData[] = [
     },
     {
         name: "Pathivara Apollo Dental Clinic - Dhulabari Branch",
-        location: "20m north to Asian Highway,, Mechinagar-10, Jhapa, Nepal",
+        location: "20m north to Asian Highway, Mechinagar-10, Jhapa, Nepal",
         phone: "023-564142",
         email: "herambjhabpkihs@gmail.com",
         timing: "9:00 AM - 6:00 PM (Daily)",
