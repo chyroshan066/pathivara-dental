@@ -4,15 +4,16 @@ import React, { memo } from 'react';
 import styles from "./Dentist.module.css";
 
 const TRAININGS: string[] = [
-    "MDS in Orthodontics(Braces)",
     "Endodontic Rotary Hands on Training",
-    "NAM Training  for Clefts",
-    "TAD Training",
+    "Orthodontic Hands on Training",
+    "TDA Training",
 ];
 
 const ABOUTTEXT: string[] = [
-    "JC Dr. Mukesh Kumar Shah is a **Consultant Orthodontist (Braces and Aligner Specialist)**, social leader, and entrepreneur from Jhapa, Nepal. With a **Master of Dental Surgery (MDS)** and practicing in dental field as General Dentist since 2016 and as Consultant Orthodontist since 2022, he brings extensive experience and expertise to his practice. With a deep commitment to both his profession and community service, he has played a vital role in shaping dental healthcare and youth leadership in his region.",
-    "As a dedicated orthodontist, Dr. Shah runs Pradhan Dental Clinic in Birtamode, Jhapa, where he provides high-quality dental and orthodontic services. His clinic is known for its patient-centered approach, offering modern treatments that enhance both oral health and aesthetics."
+    "Dr. Heramb Kumar is a highly respected dental surgeon who has been serving the Mechi Zone with dedication since 2006. He began his dental journey after securing the top position in the entrance examination and earning a full scholarship at B.P. Koirala Institute of Health Sciences (BPKIHS), Dharan in 2001 AD.",
+    "He completed his Bachelor of Dental Surgery (BDS) in 2006 and successfully passed the Nepal Medical Council (NMC) licensing examination in 2007. Dr. Kumar then worked as an Inter Dental Surgeon at Mechi Zonal Hospital, Bhadrapur, where he gained valuable clinical experience and began building his reputation in the region.",
+    "With nearly two decades of continuous service, Dr. Kumar has been committed to improving oral health in the community. He has organized numerous free dental check-ups, awareness programs, and entrance guidance camps, contributing significantly to public dental education.",
+    "To stay updated with modern dentistry, he has participated in several advanced professional trainings, including: Orthodontic workshops, Endodontic workshops in India and Dental Implant hands-on training",
 ];
 
 const processHighlightedText = (text: string) => {
@@ -105,32 +106,12 @@ export const Dentist = memo(() => {
                                         position: 'relative'
                                     } as React.CSSProperties}>
                                     <img
-                                        src="/images/dentists/dentist-1.webp"
+                                        src="/images/dentist-profile.webp"
                                         alt="Dr. Ambika Sah - Dental Surgeon"
                                         className={`img-cover ${styles.dentistProfileImg}`}
                                         loading="lazy"
                                         style={{ borderRadius: '50%' }}
                                     />
-
-                                    {/* Verified badge */}
-                                    <div style={{
-                                        position: 'absolute',
-                                        bottom: '10px',
-                                        right: '10px',
-                                        width: '40px',
-                                        height: '40px',
-                                        background: 'var(--vibrant-coral)',
-                                        borderRadius: '50%',
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        justifyContent: 'center',
-                                        color: 'white',
-                                        fontSize: '18px',
-                                        border: '3px solid white',
-                                        boxShadow: '0 5px 15px rgba(0, 0, 0, 0.2)'
-                                    }}>
-                                        ✓
-                                    </div>
 
                                 </div>
                             </div>
@@ -157,7 +138,7 @@ export const Dentist = memo(() => {
                                         fontWeight: '700',
                                         marginBottom: '25px'
                                     }}>
-                                    Consultant Orthodontist
+                                    Senior Dental
                                 </h3>
 
                                 <div
@@ -170,22 +151,16 @@ export const Dentist = memo(() => {
                                         marginBottom: '25px',
                                         boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)'
                                     }}>
-                                    {[
-                                        "Master of Dental Surgery (MDS)",
-                                        "Bachelor of Dental Surgery (BDS)"
-                                    ].map((edu, index) => (
-                                        <p
-                                            key={index}
-                                            style={{
-                                                color: 'var(--darkest-teal)',
-                                                fontWeight: '800',
-                                                fontSize: '1.6rem',
-                                                letterSpacing: '1px'
-                                            }}
-                                        >
-                                            {edu}
-                                        </p>
-                                    ))}
+                                    <p
+                                        style={{
+                                            color: 'var(--darkest-teal)',
+                                            fontWeight: '800',
+                                            fontSize: '1.6rem',
+                                            letterSpacing: '1px'
+                                        }}
+                                    >
+                                        Bachelor of Dental Surgery (BDS)
+                                    </p>
                                 </div>
 
                                 <div
@@ -205,7 +180,7 @@ export const Dentist = memo(() => {
                                             lineHeight: '1.6',
                                             margin: '0'
                                         }}>
-                                        TRIBHUVAN UNIVERSITY<br />
+                                        B.P. KOIRALA INSTITUTE OF HEALTH SCIENCES <br />
                                         <span style={{
                                             fontSize: '1.2rem',
                                             opacity: '0.9',
@@ -270,7 +245,7 @@ export const Dentist = memo(() => {
                                     lineHeight: '1.8',
                                     color: 'var(--teal-gray)'
                                 }}>
-                                JC Dr. Mukesh Kumar Shah is a multi-faceted professional who excels in dentistry, leadership, and social service. His contributions to orthodontics, his efforts in strengthening professional networks, and his dedication to community welfare make him a respected figure in both medical and social sectors. Through his ongoing work, he continues to inspire young professionals and contribute to the overall development of Jhapa.
+                                With his extensive experience, compassionate approach, and commitment to excellence, Dr. Heramb Kumar continues to provide high-quality dental care to patients across the Mechi region.
                             </p>
 
                             {/* Key highlights */}
@@ -304,7 +279,7 @@ export const Dentist = memo(() => {
                                         color: 'var(--deep-teal)',
                                         fontWeight: '600'
                                     }}>
-                                        TU Graduate & NMC Registered
+                                        BPKIHS Graduate & NMC Registered
                                     </span>
                                 </div>
                                 <div style={{
@@ -581,7 +556,7 @@ export const Dentist = memo(() => {
                                     fontWeight: '700',
                                     marginBottom: '25px'
                                 }}>
-                                Leadership & Community Service
+                                Community Service
                             </h4>
 
                             <div style={{
@@ -599,7 +574,7 @@ export const Dentist = memo(() => {
                                         lineHeight: '1.7',
                                         margin: '0'
                                     }}>
-                                    Demonstrates exceptional leadership in dental healthcare as <span className={styles.highlightedText}>President of the Nepal Dental Association, Jhapa District</span>, while serving as <span className={styles.highlightedText}>Founder President of JCI Jhapa</span> and  <span className={styles.highlightedText}>President of the Rotaract Club of Surunga</span>, actively advocating for dental professional welfare and driving community development initiatives focused on youth empowerment and humanitarian service.
+                                    Dr. Heramb Kumar has been deeply committed to community service throughout his career, organizing numerous <span className={styles.highlightedText}>free dental check-up camps, awareness programs, and entrance guidance camps</span> across the Mechi region. His continued involvement in these public health initiatives reflects his dedication to improving oral health, educating the community, and ensuring accessible dental care for underserved populations.
                                 </p>
                             </div>
                         </div>
