@@ -10,10 +10,11 @@ const TRAININGS: string[] = [
 ];
 
 const ABOUTTEXT: string[] = [
-    "Dr. Heramb Kumar is a highly respected dental surgeon who has been serving the Mechi Zone with dedication since 2006. He began his dental journey after securing the top position in the entrance examination and earning a full scholarship at B.P. Koirala Institute of Health Sciences (BPKIHS), Dharan in 2001 AD.",
-    "He completed his Bachelor of Dental Surgery (BDS) in 2006 and successfully passed the Nepal Medical Council (NMC) licensing examination in 2007. Dr. Kumar then worked as an Inter Dental Surgeon at Mechi Zonal Hospital, Bhadrapur, where he gained valuable clinical experience and began building his reputation in the region.",
-    "With nearly two decades of continuous service, Dr. Kumar has been committed to improving oral health in the community. He has organized numerous free dental check-ups, awareness programs, and entrance guidance camps, contributing significantly to public dental education.",
-    "To stay updated with modern dentistry, he has participated in several advanced professional trainings, including: Orthodontic workshops, Endodontic workshops in India and Dental Implant hands-on training",
+    "Dr. Heramb Kumar is a highly respected dental surgeon who has been serving the Mechi Zone with dedication since 2006. He began his dental journey after securing the top position in the entrance examination and earning a scholarship at B.P. Koirala Institute of Health Sciences (BPKIHS), Dharan in 2001 AD.",
+    "He completed his Bachelor of Dental Surgery (BDS) in 2006 and successfully passed the Nepal Medical Council (NMC) licensing examination in 2007. Dr. Kumar then worked as an Inter Dental Surgeon at Mechi Zonal Hospital, Bhadrapur, where he gained valuable clinical experience and built a strong foundation for his professional reputation.",
+    "With nearly two decades of continuous service, Dr. Kumar has been committed to improving oral health in the community. He has organized numerous free dental check-ups, awareness programs, and free extraction camps, contributing significantly to public dental education and accessibility.",
+    "To stay updated with advancements in dentistry, he has participated in several professional development trainings, including orthodontic workshops, endodontic workshops in New Delhi, India, and Dental Implant hands-on training (Implant Dentium)",
+    "Beyond clinical practice, Dr. Kumar has also contributed to local economic growth by creating employment opportunities for many youths. He has provided work for consultants and specialists such as oral surgeons, implantologists, orthodontists, and general dental surgeons, helping support professional development within the region.",
 ];
 
 const processHighlightedText = (text: string) => {
@@ -138,10 +139,10 @@ export const Dentist = memo(() => {
                                         fontWeight: '700',
                                         marginBottom: '25px'
                                     }}>
-                                    Senior Dental
+                                    Senior Dental Surgeon
                                 </h3>
 
-                                <div
+                                {/* <div
                                     className={styles.dentistQualificationBadge}
                                     style={{
                                         background: 'linear-gradient(135deg, var(--pale-aqua), #e8f5f0)',
@@ -161,7 +162,7 @@ export const Dentist = memo(() => {
                                     >
                                         Bachelor of Dental Surgery (BDS)
                                     </p>
-                                </div>
+                                </div> */}
 
                                 <div
                                     className={styles.dentistInstitutionInfo}
